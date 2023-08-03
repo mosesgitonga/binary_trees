@@ -48,8 +48,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 
 
-
-
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 
 int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_postorder(const binary_tree_t *root, void (*func)(int));
